@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100vw;
+    height: 10vh;
+    background-color: #222E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9d985;
+}
+.choices{
+    width: 100vw;
+    height: 40vh;
+    background-color: #269bb2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.choice{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 100%;
+    border: none;
+    font-size: 4vw;
+    color: #BCD8C1;
+    
+}
+#Stone{
+   
+    background-image: url(https://files.facepunch.com/rust/item/stones_512.png);
+    background-size: cover;
+    
+}
+#Paper{
+    background-image: url(https://siddhartha-1234.github.io/Stone_paper_scissor.io/img/paper.png);
+    background-size: cover;
+}
+#Scissor{
+    background-image: url(https://siddhartha-1234.github.io/Stone_paper_scissor.io/img/scissor.png);
+    background-size: cover;
+}
+.msg{
+    height: 15vh;
+    background-color: #269bb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#msg{
+    width: 80vw;
+    height: 10vh;
+    background-color: #F7B267;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+    color: #d71310;
+}
+.score{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222E50;
+}
+.player{
+    width: 25vw;
+    height: 20vh;
+    background-color: #F7B267;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    gap: 10px;
+    color: #d77710;
+    border-radius: 20px;
+}
+.comp{
+    width: 25vw;
+    height: 20vh;
+    background-color: #F7B267;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vh;
+    gap: 10px;
+    color: #d77710;
+    border-radius: 20px;
+}
+.choice:hover{
+    border: 2px solid black;
+    opacity: .8;
+}
+
