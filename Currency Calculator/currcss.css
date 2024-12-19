@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FDE8E9;
+}
+
+
+.container{
+    padding: 1rem;
+    background-color: #fff;
+    
+    width: 30vw;
+    border-radius: 1rem;
+}
+
+.heading{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.form{
+    
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+}
+form .input , .select{
+    width: 100%;
+}
+
+
+input{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+.select{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.from, .to{
+    padding: .5rem;
+    border: 1px solid lightgray;
+    border-radius: .75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    border: none;
+    outline: none;
+    border-radius: .1rem;
+}
+
+
+#msg{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    background-color: #3a3f5c;
+    color: lightcyan;
+    font-size: 1rem;
+}
+
+img{
+    width: 1.75rem;
+}
