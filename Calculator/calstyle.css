@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 25vw;
+    height: 80vh;
+    /* background-color: blue; */
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    padding: 1rem;
+    background-color: rgba(117, 116, 116, 0.247);
+}
+
+.subdisplay , .maindisplay, .allbut{
+    max-width: 100%;
+}
+
+.subdisplay{
+    height: 6vh;
+    border: 1px solid gray;
+    padding-right: 1rem;display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: hsl(0, 0%, 60%);
+    box-shadow: 2px 2px 3px gray;
+    overflow-x: auto;
+}
+
+
+.maindisplay{
+    height: 10vh;
+    margin-bottom: 1.5rem;
+    border: 1px solid gray;
+    padding-right: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 3px gray;
+    overflow-x: auto;
+}
+
+.allbut{
+    padding: .75rem;
+    height: calc(60vh - 2rem);
+    /* background-color: black; */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 5vw;
+    height: 4vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px 3px gray;
+}
+
+
+.but{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
