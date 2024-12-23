@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="wfstyle.css">
+    <link rel="shortcut icon" href="icons8-weather-120.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Weather</h1>
+        </div>
+        <p id="p">Enter City</p>
+        <div class="form">
+            <form id="nosub">
+                <div><input type="text" id="cityname" value="Lucknow"></div>
+            </form>
+        </div>
+        <div class="getweather">
+            <button id="forecast">Forecast</button>
+        </div>
+        <div class="city">
+            <h2 id="city">Lucknow</h2>
+            <pre> </pre>
+            <div class="location">
+                <img src="loco.png" alt="location">
+                <a href="https://www.google.co.in/maps/@26.8220189,80.9097119,14z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" id="geoloco"><p id="latlon">28.67/80.64</p></a>
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="temp">
+                <p id="type">Clear</p>
+                <div class="tempimg">
+                    <p id="tempc">17 C</p>
+                    <img src="" alt="haze" id="img">
+                </div>
+                <p class="feellike">Feels like 17 C</p>
+            </div>
+            <div class="detail">
+                <div class="center">
+                <p class="minmax">Min/Max: 21C / 23C</p>
+                <p id="humidity">Humidity: 60%</p>
+                <p class="wind">Wind: 5kph</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="wfscript.js"></script>
+</body>
+</html>
