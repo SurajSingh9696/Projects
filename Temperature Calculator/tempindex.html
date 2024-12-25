@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Temperature Converter</title>
+    <meta name="description" content="convert temperature into different units">
+    <link rel="stylesheet" href="tempstyle.css">
+    <link rel="shortcut icon" href="temperature.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Temperature Converter</h1>
+        </div>
+        <div class="main">
+            <div class="from">
+                <!-- <label for="from">From:</label> -->
+                <select id="from" name="from">
+                    <option value="C">Celsius(C)</option>
+                    <option value="F">Fahrenheit(F)</option>
+                    <option value="K">Kelvin(K)</option>
+                </select>
+                <div>
+                    <input type="number" name="infrom" id="infrom" value="1" min="1" required>
+                </div>
+            </div>
+            <div id="symbol"><img src="convert.png" alt="To" id="sym" ></div>
+            <div class="to">
+                <!-- <label for="to">To:</label> -->
+                <select id="to" name="to">
+                    <option value="C">Celsius(C)</option>
+                    <option value="F">Fahrenheit(F)</option>
+                    <option value="K">Kelvin(K)</option>
+                </select>
+                <div>
+                    <input type="number" name="into" id="into" value="1" >
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button id="but">Convert</button>
+        </div>
+    </div>
+    <script src="tempscript.js"></script>
+</body>
+</html>
