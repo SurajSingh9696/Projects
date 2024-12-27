@@ -257,7 +257,7 @@ for(let ch in newCountryList){
   });
 
   let fetching = async()=>{
-    let curr = await fetch(`https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_sDku6HS3kt3YRBvLu0stztbtCJCf9VuYaHesqYjdm&currencies=${selectto.value}&base_currency=${selectfrom.value}`);
+    let curr = await fetch(`https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_ssDku6HS3kt3YRBvLu0stztbtCJCf9VuYaHesqYjdmss&currencies=${selectto.value}&base_currency=${selectfrom.value}`);
     let data = await curr.json();
     console.log(data);
     let newval = (data.data)[selectto.value];
