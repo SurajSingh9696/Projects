@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Get the time of any zone or coordinate">
+    <title>Get Time</title>
+    <link rel="stylesheet" href="gtstyle.css">
+    <link rel="shortcut icon" href="clock.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Get Time</h1>
+        </div>
+        <div class="input">
+           <div class="containtimezone">
+            <p>Enter the Timezone</p>
+            <div class="timezone">
+                <select name="timezone" id="gettimezone"></select>
+                <button id="buttimezone">Get</button>
+            </div>
+           </div>
+            <div class="containcoordinates">
+                <p>Enter the Coordinates</p>
+            <div class="coordinates">
+               <div> 
+                <label for="lat">Lat:</label>
+                <input type="number" id="lat" name="lat" step="any"  value="26.8467">
+                </div>
+                <div>
+                <label for="long">Long:</label>
+                <input type="number" id="long" name="long"  value="80.9462">
+                </div>
+                <button id="butcoordinates">Get</button>
+            </div>
+            </div>
+        </div>
+        <div class="output">
+            <p id="output">00:00:00</p>
+        </div>
+    </div>
+    <script src="gtscript.js"></script>
+</body>
+</html>

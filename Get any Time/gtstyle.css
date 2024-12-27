@@ -1,0 +1,126 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kosugi Maru;
+    letter-spacing: 2px;
+}
+
+.kosugi-maru-regular {
+    font-family: "Kosugi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    border: 2px solid lightgray;
+    box-shadow: 4px 4px 5px lightgray;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 50vw;
+    background-color: rgba(128, 128, 128, 0.078);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.containtimezone{
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.timezone{
+    display: flex;
+    gap: 2rem;
+}
+
+.containtimezone p{
+    margin-bottom: .5rem;
+}
+
+.containtimezone select{
+    height: 1.6rem;
+    width: 28.5rem;
+    outline: none;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+}
+
+.containtimezone button{
+    height: 1.6rem;
+}
+
+
+.containcoordinates{
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.containcoordinates p{
+    margin-bottom: .5rem;
+}
+
+.containcoordinates input{
+    height: 1.5rem;
+    outline: none;
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+}
+
+.coordinates{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    width: 5rem;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+}
+
+.output{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(39, 132, 163);
+    height: 3rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
