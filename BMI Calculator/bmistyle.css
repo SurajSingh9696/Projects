@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container{
+    width: 40vw;
+    padding: 1rem;
+    border: 2px solid lightgray;
+    box-shadow: 4px 4px 5px lightgray;
+    border-radius: .5rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.height{
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid lightgray;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+}
+
+.height p{
+    margin-bottom: .5rem;
+}
+
+.weight{
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+}
+
+.weight p{
+    margin-bottom: .5rem;
+}
+
+.bmi{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+}
+
+#bmistatus{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.416);
+} 
+
+#bmino{
+    font-size: 1.8rem;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid lightgray;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: .75rem;
+    padding-left: .75rem;
+    border-radius: .2rem;
+}
