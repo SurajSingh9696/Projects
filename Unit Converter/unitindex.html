@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="unitstyle.css">
+    <link rel="shortcut icon" href="exchange.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Unit Converter</h1>
+            <button id="reset">Reset</button>
+        </div>
+    </header>
+    <main>
+        <div class="button">
+            <button class="" id="length">Length</button>
+            <button class="" id="area">Area</button>
+            <button class="" id="volume">Volume</button>
+            <button class="" id="mass">Mass</button>
+            <button class="" id="data">Data</button>
+            <button class="" id="speed">Speed</button>
+            <button class="" id="time">Time</button>
+            <button class="" id="temperature">Temperature</button>
+        </div>
+        <div class="main">
+           <div class="input">
+            <div class="from">
+                <select name="from" id="from">
+                </select>
+                <input type="number" class="infrom" min="1">
+            </div>
+
+               <img src="two-arrows.png" alt="Convert" id="img">
+
+               <div class="to">
+                <select name="to" id="to">
+                </select>
+                <input type="number" class="into" min="1">
+               </div>
+           </div>
+           <button id="convert">Convert</button>
+        </div>
+    </main>
+    <footer>
+        <div>Have a Happpy Conversion!</div>
+    </footer>
+
+    <script src="unitscript.js"></script>
+</body>
+</html>
